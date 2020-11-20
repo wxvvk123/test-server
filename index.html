@@ -7,14 +7,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="parallax"
-        data-0="background-color: rgb(255,0,0);"
-        data-500="background-color: rgb(0,0,255);"
-    ></section>
-    <section class="parallax"></section>
-    <section class="parallax"></section>
-    <section class="parallax"></section>
-
+    <section class="parallax sec01">
+        <div class="txt" data-0="top:30%; transform:rotate(0deg);" data-800="top:-40%; transform:rotate(360deg);">
+            <h2>Parallax Scrolling</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ipsa corporis fuga reprehenderit. Itaque, quod veniam dolore illo quas deleniti accusamus! Excepturi suscipit quae, corporis voluptates laborum blanditiis? Error, maxime.</p>
+        </div>
+    </section>
+    <section class="parallax sec02">
+        <div class="txt" data-0="left:100%;" data-800="left:30%; opacity:1;" data-1000="opacity:0;">
+            <h2>Parallax Scrolling</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ipsa corporis fuga reprehenderit. Itaque, quod veniam dolore illo quas deleniti accusamus! Excepturi suscipit quae, corporis voluptates laborum blanditiis? Error, maxime.</p>
+        </div>
+    </section>
+    <section class="parallax sec03">
+        <div class="txt" data-800="opacity:0;" data-1600="opacity:1;">
+            <h2>Parallax Scrolling</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ipsa corporis fuga reprehenderit. Itaque, quod veniam dolore illo quas deleniti accusamus! Excepturi suscipit quae, corporis voluptates laborum blanditiis? Error, maxime.</p>
+        </div>
+        <div class="shape" data-800="left:0%;" data-1600="left:100%;"></div>
+    </section>
+    <section class="parallax sec04" data-1600="width:0%; left:50%;" data-2400="width:100%; left:0%;">
+        <div class="txt" data-1600="opacity:0; color: rgb(0,0,0);" data-2400="opacity:1; color: rgb(255,255,255);">
+            <h2>Parallax Scrolling</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus ipsa corporis fuga reprehenderit. Itaque, quod veniam dolore illo quas deleniti accusamus! Excepturi suscipit quae, corporis voluptates laborum blanditiis? Error, maxime.</p>
+        </div>
+    </section>
 
     <script src="js/skrollr.min.js"></script>
     <script src="js/script.js"></script>
