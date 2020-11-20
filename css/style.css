@@ -6,7 +6,7 @@ body {height: 400vh;}
 
 .parallax{position: fixed; width: 100%; height: 500px;}
 
-.parallax:nth-child(1) {background: orange;}
+.parallax:nth-child(1) {}
 .parallax:nth-child(2) {}
 .parallax:nth-child(3) {}
 .parallax:nth-child(4) {}
